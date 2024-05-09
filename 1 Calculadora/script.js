@@ -22,3 +22,12 @@ buttons.forEach((item)=>{
         }
     };
 });
+
+const themeToggleBtn = document.querySelector(".theme-toggler");
+const calculator = document.querySelector(".calculator");
+let isDark = true;
+themeToggleBtn.onclick=() =>{
+    calculator.classList.toggle("dark");
+    themeToggleBtn.classList.toggle("active");
+    isDark =!isDark;
+}
