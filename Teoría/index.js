@@ -3,6 +3,8 @@ const txtn2 = document.getElementById("n2");
 const reply = document.getElementById("resp");
 const btncalcular = document.getElementById("calcular");
 
+console.log("Hola mundo!");
+
 btncalcular.addEventListener('click', calcular);
 
 function calcular(){

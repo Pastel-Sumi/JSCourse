@@ -5,6 +5,7 @@ var respuesta = Math.pow(numero1, numero2);
 console.log("la respuesta es: " + respuesta);
 
 var numero = 8;
+//If
 if(numero == 7){
     console.log("Si es 7")
 }
